@@ -1,0 +1,147 @@
+body{
+#	background-image: url(http://www.htmldog.com/examples/images/sifakabg.gif);
+#	background: white url(http://www.htmldog.com/examples/images/sifakabg.gif) repeat-y center center;
+	background: #0084C7 url(../images/sifakabg.gif) no-repeat fixed;
+}
+
+.corners1 {
+	width:502px;
+	margin:auto;
+}
+
+.corners1 p{
+	width: 500px;
+	color: black;
+	background: url(../images/sifakaptop.gif) no-repeat;
+	padding-top: 30px;
+}
+
+.corners1 p span {
+	display: block;
+	background: url(../images/sifakapbottom.gif) bottom no-repeat;
+	padding-bottom: 30px;
+}
+		
+.corners1 p span span {
+	display: block;
+	background: white;
+	padding: 0 30px;
+#	border: 1px black solid;
+	border-width: 1px 5px 5px 10px;
+	border-color: red green blue yellow;
+	border-top-style: solid;
+	border-right-style: dashed;
+	border-bottom-style: dotted;
+	border-left-style: groove;
+
+}
+		
+p {
+	font-size: 50px;
+	font-weight:lighter;
+	font-family: helvetica,verdana,serif,arial,tahoma;
+#	font-style:italic;
+#	text-decoration: overline;
+#	letter-spacing:0.5em;
+#	word-spacing:2em;
+	line-height: 1.5;
+	text-align:left;
+	text-indent:10;
+}
+
+p:first-child{
+    font: 14px/1.5 "Times New Roman", times, serif;
+#    padding: 30px 10px;
+#    border: 1px black solid;
+#    border-width: 1px 5px 5px 1px;
+#    border-color: red green blue yellow;
+#    margin: 10px 50px;
+}
+
+p:last-child{
+	color:brown;
+}
+
+p:hover {
+#	display:none;
+	color:yellow;
+}
+
+a:hover {
+	text-transform: capitalize;
+	color:red
+}
+
+strong:hover {
+	text-transform:uppercase;
+}
+
+.tst1 {
+	border:40px dashed red;
+	background-color:blue;
+#	position:static 0 0; ==> Not working !!
+}
+
+.tst1:hover {
+	border:40px dashed blue;
+	background-color:red;
+}
+
+.tst1 h2.hd2 strong#s1 {
+	color:green;
+}
+
+h2 {
+	font-size:1.5em;
+	background-color:lightgrey;
+	color:white;
+	margin:0px;
+	padding:40px;
+	text-align:right;
+}
+
+input:focus {
+	background:#abcdef;
+	border:2px solid red;
+}
+
+input#uname:focus {
+	background:#eee;
+}
+
+.corners2 {
+	width:60%;
+	margin:auto;
+}
+
+.corners2 p {	
+	color: black;
+	background: white url(../images/sifakaptl.gif) top left no-repeat;
+	text-align:center;	
+	line-height:0;
+	font-family:verdana,serif;
+}
+		
+.corners2 p span {
+	display: block; /* sets all spans inside p to block, so only need this once */
+	background: url(../images/sifakaptr.gif) top right no-repeat;
+#		padding-top:30px;	
+}
+
+.corners2 p span span {
+	background: url(../images/sifakapbr.gif) bottom right no-repeat;
+}
+
+.corners2 p span span span {
+	padding: 2em;
+	height: 0; /* fixes a padding bug in IE */
+	background: url(../images/sifakapbl.gif) bottom left no-repeat;
+}
+
+.corners p span span > span {
+	height: auto; /* sets the height back to auto for all other browsers */
+}
+
+/*  
+
+*/

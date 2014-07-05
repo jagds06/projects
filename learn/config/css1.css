@@ -1,0 +1,61 @@
+.header h1{
+color: red;
+background-color: blue;
+padding: 15px;
+margin: 0px;
+width: 200px;
+height:80px;
+text-align:center;
+float: left; 
+}
+
+.content h3{
+color: white;
+background-color: grey;
+padding: 15px;
+margin: 15px;
+width: auto;
+height:80px;
+clear: none; 
+}
+
+.menu{
+	background-color: grey;
+	padding: 15px;
+	margin: 15px;
+	width: auto;
+	height:80px;
+}
+
+.menu ul{
+color: white;
+clear: none; 
+font-family:sans-serif;
+text-align:right;
+}
+
+.menu ul li{
+	display:inline;
+	margin:15px;
+}
+
+.menu ul li a{
+	text-decoration:none;
+	padding:10px 10px 10px 10px;
+}
+
+.menu ul li a:hover{
+	background-color:lightgrey;
+	color:white;
+}
+
+.menu ul li a:visited{
+	background-color:lightgrey;
+	color:blue;
+}
+
+
+.menu ul li ul{
+	display:none;
+}
+
